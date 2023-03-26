@@ -3,13 +3,19 @@
 ## Tabla de contenido
 
 1. [Información General](#info-general)
+2. [Cómo visualizar el proyecto](#visualizar-proyecto)
 2. [Diseño](#diseño)
 3. [Tecnologías](#tecno)
 4. [Mejoras](#mejoras)
 
+
 ## Información General
 ***
 El administrador de listas es un recurso para llevar el registro de alumnos de un colegio. Su diseño está enfocado al sector de la educación Prescolar y Primaria. 
+
+## Cómo visualizar el proyecto
+***
+Descargar y abrir en Visual Studio. En el Index.html, dar click con el botón derecho del mouse y abrir con el Open Live Server. 
 
 ## Diseño
 ***
@@ -30,10 +36,13 @@ Para el proyecto se usó HTML, CSS y JavaScript, el cual se empeló para la crea
 
 Los datos que se reflejan en la lista pueden eliminarse a través de un botón que se ubica en la útima columna. 
 
+Respecto al seleccionador de nombres, se deben intresar 24 nombres y después dar click en el botón de seleccionar y en el tablero del calendario se hará más brillante la tarjeta seleccionada y aparecerá el nombre del alumno elegido. 
+
 
 ## Mejoras
 ***
 Falta agregar funcionalidad a los dos botones que guardan y cargan la lista. Por otra parte, el Seleccionador de Nombres, al ser parte de un proyecto anterior, falta arreglar el diseño responsive
 
 
-Proyecto elaborado por: Margarita Álvarez
+Proyecto de la lista de tareas elaborado por: Margarita Álvarez
+Proyecto del calendario fue elaborado en cojunto por: Martha Muñoz, María Gimenez y Margarita Álvarez
