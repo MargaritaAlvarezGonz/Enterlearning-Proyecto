@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Alumnos</title>
+    <link rel="stylesheet" href="/Css/styleclear.css">
+    <link rel="stylesheet" href="/Css/style.css">
+    <script src="https://kit.fontawesome.com/6bdab5f0d0.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="/Imágenes/Logo enter modificado.png">
+        
+    
+
+</head>
+<body>
+  <nav>
+    <a href="/Inicio/portada.html" class="nav-enlace">Inicio</a>
+    <a href="/enterlearning/index.html" class="nav-enlace">Seleccionador de Nombres</a>
+    <a href="/index.html" class="nav-enlace">Lista de Alumnos</a>
+  </nav>
+
+  <div class="grid-container">
+   <div><h1>Lista de alumnos</hi></div>
+    
+    <form class="list" id="listForm">
+        <div class="formField">
+          <label for="typeName">Nombre</label>
+          <input id="typeName" name="typeName" required>
+        </div>
+        <div class="formField">
+          <label for="firstSurname">Primer Apellido</label>
+          <input id="firstSurname" name="firstSurname" required>
+        </div>
+        <div class="formField">
+          <label for="secondSurname">Segundo Apellido</label>
+          <input id="secondSurname" name="secondSurname" required>
+        </div>
+        <div class="formField">
+          <label for="schoolGrade">Curso</label>
+          <input id="schoolGrade" name="schoolGrade" required></div>
+        <div class="forField">
+          <button id="bt-agregar">Agregar</button></div>
+    </form>
+    
+
+    <div class="tableFormat">
+        <table id="listTable">
+            <tr>
+                <th>Nombre</th>                         
+                <th>Primer Apellido</th>       
+                <th>Segundo Apellido</th>
+                <th>Curso</th>
+                <th>Eliminar</th>
+            </tr>
+            <tr>              
+            </tr>
+        </table>
+    </div>
+    
+  </div>
+  <div><button id="bt-Cargar">Cargar</button><button id="bt-Cargar">Guardar</button></div>
+  
+    <footer class="pie-pagina">
+      <div class="grupo-1">
+        <div class="box">
+          <figure>
+            <a href="#">
+              <image src="/Imágenes/Logo enter modificado.png" alt="logo de EnterLearning"></image>
+            </a>
+          </figure>
+        </div>
+        <div class="box">
+          <h2>SOBRE NOSOTROS</h2>
+          <p>Página de inicio</p><p>Política de Privacidad</p><p>Contáctanos: info@enterlearning.edu</p><p>&copy; 2023 <strong>EnterLearning</strong> - Todos los derechos reservados - </p>
+          
+        </div>
+        <div class="box">
+          <h2>SIGUENOS</h2>
+          <div class="red-social">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+          </div>
+        </div>
+      </div>    
+        
+      
+    </footer>    
+
+        <script src="/Js/index.js"></script>
+        
+</body>
+</html>

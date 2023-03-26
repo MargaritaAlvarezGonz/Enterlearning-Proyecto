@@ -1,0 +1,225 @@
+@font-face {
+    font-family:'Indie_Flower';
+    src: url(/Fuentes/IndieFlower-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Permanent_Marker';
+    src: url(/Fuentes/PermanentMarker.ttf);
+}
+
+.nav-enlace{
+    display: inline-block;
+    background-color: #BEFFD1;
+    color:#4A5B44;
+    padding: .625rem 1.875rem;
+    text-decoration: none;
+    font-family: 'Permanent_Marker';
+    border-color: solid #FFACA0 .0625rem ;
+    border-radius: .9375rem;
+
+}
+
+.nav-enlace:hover{
+    background-color: #FFACA0;
+    
+}
+
+nav{
+    background-color: #BEFFD1;
+    display: flex;
+    justify-content:first baseline;
+}
+
+body {
+    background-color: #fbf3cd;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(/Imágenes/Cambio\ enterlearning.png);
+    
+}
+
+h1{
+    text-align: center;
+    font-family: 'Permanent_Marker';
+    font-size: 2.0625rem;
+    padding: .9375rem ;
+    color: #4A5B44;
+       
+}
+
+.list{
+    color:#4A5B44;
+    font-family:'Indie_Flower';
+    background-color: #BEFFD1;
+    height: 12.5rem;
+    width: 25rem;
+    margin:1% auto;
+    border-radius: 1.5625rem;
+    border: solid .125rem;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+
+}
+input{
+    border-radius: .4375rem;
+    border: solid #4A5B44 .125rem;
+    margin: .125rem;
+    display: flexbox;
+    justify-content: end;
+
+}
+
+#bt-agregar{
+    font-size: .9375rem;
+    padding: 5px;
+    margin-top: 1.25rem;
+    text-align: center;
+    background-color: #FFACA0;
+    font-family: 'Indie_Flower';
+    border-radius: .9375rem;
+    border: solid #4A5B44;
+}
+
+th {
+    border: solid salmon .125rem;
+    padding: 10px;
+    text-align: center;
+    background-color: #FFACA0;
+    font-family: 'Indie_Flower';
+}
+
+.tableFormat table,
+td {
+    margin: 1.25rem auto;
+    border: solid salmon 2px;
+    text-align: center;
+    background-color: #BEFFD1;
+    font-family: 'Indie_Flower';    
+    
+}
+
+#bt-Cargar{
+    font-size: .9375rem;
+    padding: 5px;
+    margin-top: 1.25rem;
+    text-align: center;
+    background-color: #FFACA0;
+    font-family: 'Indie_Flower';
+    border-radius: .9375rem;
+    border: solid #4A5B44;
+    margin: 1% auto;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+button{
+    font-size: .5rem;
+    padding: 5px;
+    margin-top: auto;
+    text-align: center;
+    background-color: #FFEA91;
+    font-family: 'Indie_Flower';
+    border-radius: .625rem;
+    border: solid #4A5B44 .0625rem;
+}
+
+/*Pie de pagina*/
+.pie-pagina{
+    width: 100%;
+    background-color: #BEFFD1;
+    margin-top: auto;
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 75rem;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: .625rem;
+    padding: .625rem 0rem;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 5.625rem;
+}
+
+.pie-pagina .grupo-1 .box h2{
+    color:#4A5B44;
+    margin-bottom: 1.125rem;
+    font-size: .75rem;
+    font-family: 'Permanent_Marker';
+    
+}
+
+.pie-pagina .grupo-1 .box p{
+    color:#4A5B44;
+    margin-bottom: .3125rem;
+    font-family: 'Indie_Flower';
+    padding: 0rem;
+    font-size: .9375rem;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 2.8125rem;
+    height: 2.8125rem;
+    line-height: 2.8125rem;
+    color:#FFACA0;
+    margin-right: .625rem;
+    background-color: #FFEA91;
+    text-align: center;
+    border-radius: 1.875rem;
+    transition: all 300ms ease;   
+
+}
+
+.pie-pagina .grupo-1 .red-social a:hover{
+    color:#00CCFF
+}
+
+.pie-pagina .grupo-2{
+    background-color: #ADE3BD;
+    padding: .9375rem .625rem;
+    text-align: center; 
+    font-family: 'Indie_Flower';
+    font-size: 15px;   
+}
+
+@media screen and (max-width: 600px) {
+    .pie-pagina .grupo-1{
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1.25rem;
+        padding: 1.25rem 0rem;
+    }
+
+    body {
+        width: auto;
+    }
+
+    .list {
+        width: auto;
+    }
+    .tableFormat{
+        
+    }
+
+    .nav{
+        flex-direction: column;
+    }
+
+}
