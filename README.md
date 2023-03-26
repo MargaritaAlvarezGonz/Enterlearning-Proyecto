@@ -15,7 +15,7 @@ El administrador de listas es un recurso para llevar el registro de alumnos de u
 
 ## Cómo visualizar el proyecto
 ***
-Descargar y abrir en Visual Studio. En el Index.html, dar click con el botón derecho del mouse y abrir con el Open Live Server. 
+Clonar y abrir en Visual Studio. En el Index.html, dar click con el botón derecho del mouse y abrir con el Open Live Server. 
 
 ## Diseño
 ***
